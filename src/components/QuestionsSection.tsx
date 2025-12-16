@@ -1,46 +1,38 @@
 import { Code2, ChevronRight } from "lucide-react";
 
 const questions = [
-  {
-    id: 1,
-    text: "WAP that accepts the marks of 5 subjects and finds the sum and percentage marks obtained by the student.",
-    topic: "Basic I/O",
-  },
-  {
-    id: 2,
-    text: "WAP that calculates the Simple Interest and Compound Interest. The Principal, Amount, Rate of Interest and Time are entered through the keyboard.",
-    topic: "Arithmetic",
-  },
-  {
-    id: 3,
-    text: "WAP to calculate the area and circumference of a circle.",
-    topic: "Math Operations",
-  },
-  {
-    id: 4,
-    text: "WAP that accepts the temperature in Centigrade and converts into Fahrenheit using the formula C/5=(F-32)/9.",
-    topic: "Conversion",
-  },
-  {
-    id: 5,
-    text: "WAP that swaps values of two variables using a third variable.",
-    topic: "Variables",
-  },
-  {
-    id: 6,
-    text: "WAP that checks whether the two numbers entered by the user are equal or not.",
-    topic: "Conditionals",
-  },
-  {
-    id: 7,
-    text: "WAP to find the greatest of three numbers.",
-    topic: "Conditionals",
-  },
-  {
-    id: 8,
-    text: "WAP that finds whether a given number is even or odd.",
-    topic: "Modulo Operator",
-  },
+  { id: 1, text: "WAP that accepts the marks of 5 subjects and finds the sum and percentage marks obtained by the student.", topic: "Basic I/O" },
+  { id: 2, text: "WAP that calculates the Simple Interest and Compound Interest. The Principal, Amount, Rate of Interest and Time are entered through the keyboard.", topic: "Arithmetic" },
+  { id: 3, text: "WAP to calculate the area and circumference of a circle.", topic: "Math Operations" },
+  { id: 4, text: "WAP that accepts the temperature in Centigrade and converts into Fahrenheit using the formula C/5=(F-32)/9.", topic: "Conversion" },
+  { id: 5, text: "WAP that swaps values of two variables using a third variable.", topic: "Variables" },
+  { id: 6, text: "WAP that checks whether the two numbers entered by the user are equal or not.", topic: "Conditionals" },
+  { id: 7, text: "WAP to find the greatest of three numbers.", topic: "Conditionals" },
+  { id: 8, text: "WAP that finds whether a given number is even or odd.", topic: "Modulo Operator" },
+  { id: 9, text: "WAP that tells whether a given year is a leap year or not.", topic: "Conditionals" },
+  { id: 10, text: "WAP that accepts marks of five subjects and finds percentage and prints grades according to the following criteria: Between 90-100% Print 'A', 80-90% Print 'B', 60-80% Print 'C', Below 60% Print 'D'.", topic: "Conditionals" },
+  { id: 11, text: "WAP that takes two operands and one operator from the user, perform the operation, and prints the result by using Switch statement.", topic: "Switch Statement" },
+  { id: 12, text: "WAP to print the sum of all numbers up to a given number.", topic: "Loops" },
+  { id: 13, text: "WAP to find the factorial of a given number.", topic: "Loops/Recursion" },
+  { id: 14, text: "WAP to print sum of even and odd numbers from 1 to N numbers.", topic: "Loops" },
+  { id: 15, text: "WAP to print the Fibonacci series.", topic: "Loops/Recursion" },
+  { id: 16, text: "WAP to check whether the entered number is prime or not.", topic: "Number Theory" },
+  { id: 17, text: "WAP to find the sum of digits of the entered number.", topic: "Digit Manipulation" },
+  { id: 18, text: "WAP to find the reverse of a number.", topic: "Digit Manipulation" },
+  { id: 19, text: "WAP to print Armstrong numbers from 1 to 100.", topic: "Digit Manipulation" },
+  { id: 20, text: "WAP to convert binary number into decimal number and vice versa.", topic: "Number Conversion" },
+  { id: 21, text: "WAP that simply takes elements of the array from the user and finds the sum of these elements.", topic: "Arrays" },
+  { id: 22, text: "WAP that inputs two arrays and saves sum of corresponding elements of these arrays in a third array and prints them.", topic: "Arrays" },
+  { id: 23, text: "WAP to find the minimum and maximum element of the array.", topic: "Arrays" },
+  { id: 24, text: "WAP to search an element in an array using Linear Search.", topic: "Searching" },
+  { id: 25, text: "WAP to sort the elements of the array in ascending order using Bubble Sort technique.", topic: "Sorting" },
+  { id: 26, text: "WAP to add and multiply two matrices of order nxn.", topic: "2D Arrays" },
+  { id: 27, text: "WAP that finds the sum of diagonal elements of a mxn matrix.", topic: "2D Arrays" },
+  { id: 28, text: "WAP to implement strlen(), strcat(), strcpy() using the concept of Functions.", topic: "Strings/Functions" },
+  { id: 29, text: "Define a structure data type TRAIN_INFO. The type contains Train No.: integer type, Train name: string, Departure Time: aggregate type TIME, Arrival Time: aggregate type TIME, Start station: string, End station: string. The structure type Time contains two integer members: hour and minute. Maintain a train timetable and implement: a) List all trains sorted by train number from a particular section. b) List all trains from a particular station at a particular time. c) List all trains from a particular station within the next one hour. d) List all trains between a pair of start and end station.", topic: "Structures" },
+  { id: 30, text: "WAP to swap two elements using the concept of pointers.", topic: "Pointers" },
+  { id: 31, text: "WAP to compare the contents of two files and determine whether they are same or not.", topic: "File Handling" },
+  { id: 32, text: "WAP to check whether a given word exists in a file or not. If yes then find the number of times it occurs.", topic: "File Handling" },
 ];
 
 const QuestionsSection = () => {

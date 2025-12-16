@@ -68,7 +68,7 @@ const Hero = () => {
           {[
             { label: "Topics", value: "8" },
             { label: "Concepts", value: "25+" },
-            { label: "Practice", value: "8" },
+            { label: "Practice", value: "32" },
             { label: "Batch", value: "2025" },
           ].map((stat) => (
             <div key={stat.label} className="p-4 rounded-xl bg-card/50 backdrop-blur-sm border border-border">
